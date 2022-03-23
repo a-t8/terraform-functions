@@ -1,6 +1,6 @@
 locals {
- string1 = "Hi!\n"
+  string1 = "Hi!\n"
 }
-output chomp_val{
-    value = chomp(local.string1)
+output "chomp_val" {
+  value = chomp(local.string1)
 }
