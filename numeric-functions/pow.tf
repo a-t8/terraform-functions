@@ -4,5 +4,5 @@ locals {
 }
 
 output "pow_val" {
-value = pow(num4,pow1)  
+value = pow(local.num4,local.pow1)  
 }
